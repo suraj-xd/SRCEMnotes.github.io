@@ -1,0 +1,136 @@
+*{
+    margin: 2px;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth ;
+    /* background-color: rgb(255, 255, 255); */
+}
+header .ramlogo{
+    width: 5vh;
+    border-radius: 50px;
+    border-color: black;
+}
+header .logo{
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    top: -13px;
+    color: black;
+    font-weight: 500;
+    font-size: 14.5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ .banner {
+        position: absolute;
+        width: 47vh;
+        text-align: center;
+        top: 11%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgb(255, 255, 255);
+        padding: 10px 20px;
+        font-size: 15px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        text-decoration: none;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, .5);
+        overflow: hidden;
+        background: #000000;
+
+
+    }
+
+    .banner:before {
+        content: '';
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        bottom: 3px;
+        width: 50%;
+        background: rgba(255, 255, 255, 0.05);
+
+    }
+
+    .banner span:nth-child(1) {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(to right, #0C002B, #1779ff);
+        animation: animate1 2s linear infinite;
+    }
+
+    @keyframes animate1 {
+        0% {
+            transform: translateX(-100%);
+        }
+
+        100% {
+            transform: translateX(100%);
+        }
+    }
+
+    .banner span:nth-child(2) {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 3px;
+        height: 100%;
+        background: linear-gradient(to bottom, #0C002B, #1779ff);
+        animation: animate2 2s linear infinite;
+        animation-delay: 1s;
+    }
+
+    @keyframes animate2 {
+        0% {
+            transform: translateY(-100%);
+        }
+
+        100% {
+            transform: translateY(100%);
+        }
+    }
+
+    .banner span:nth-child(3) {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(to left, #0C002B, #1779ff);
+        animation: animate3 2s linear infinite;
+    }
+
+    @keyframes animate3 {
+        0% {
+            transform: translateX(100%);
+        }
+
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    .banner span:nth-child(4) {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 3px;
+        height: 100%;
+        background: linear-gradient(to top, #0C002B, #1779ff);
+        animation: animate4 2s linear infinite;
+        animation-delay: 1s;
+    }
+
+    @keyframes animate4 {
+        0% {
+            transform: translateY(100%);
+        }
+
+        100% {
+            transform: translateY(-100%);
+        }
+    }
