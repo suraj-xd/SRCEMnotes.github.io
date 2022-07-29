@@ -8,3 +8,6 @@ Need of this projects was lack of communication between the newly added students
 This was pretty helpful in Corona phase.
 
 Implementation: <br> Used simple `HTML` and `CSS` for desinging and `Google drive` to host the host files.
+
+Try here: <br>
+https://suraj-xd.github.io/SRCEMnotes.github.io/
